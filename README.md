@@ -13,7 +13,7 @@ A modern Design Agency Homepage built with Next.js.
 - HTML
 - CSS
 - Javascript
-- Next.js 13+
+- Next.js version -16
  
 ---
 
