@@ -1,0 +1,97 @@
+.hero-section {
+    border: 2px solid black;
+    margin: 40px;
+    padding: 50px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #13111c 0%, #2a1f4d 60%, #4b2e83 100%);
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    padding: 60px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.agency-name {
+    
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 6px;
+    display: inline-block;
+    font-size: 20px;
+    color: grey;
+    
+}
+
+.hero-content h1 {
+    padding: 30px;
+     font-size: 34px;
+    line-height: 1.25;
+    font-weight: 500;
+    margin:8px;
+    
+}
+
+.hero-content h1 span {
+    color: blue;
+}
+
+.tagline {
+    font-size: 25px;
+    color: #aaaace;
+    line-height: 1.6;
+}
+
+.hero-buttons {
+    padding: 40px;
+}
+
+.getstarted-btn {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color:orange
+}
+
+.getstarted-btn:hover {
+    background-color: rgb(32, 32, 228);
+    color: white;
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .hero-section {
+        margin: 8px;
+        padding: 16px;
+    }
+
+    .hero-content {
+        padding: 12px;
+    }
+
+    .hero-content h1 {
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .agency-name {
+        font-size: 12px;
+    }
+
+    .tagline {
+        font-size: 14px;
+    }
+
+    .hero-buttons {
+        padding: 16px;
+    }
+
+    .getstarted-btn {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
