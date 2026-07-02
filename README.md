@@ -5,7 +5,8 @@ A modern Design Agency Homepage built with Next.js.
 ---
 
 ## Live Demo
-[View Live Site](https://your-vercel-link.vercel.app)
+
+Deployed on vercel - https://design-agency-ebon.vercel.app
 
 ---
 
